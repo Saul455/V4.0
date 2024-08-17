@@ -91,7 +91,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 my features Stay here new features coming soon...  
  <b>✯ Maintained by : <a href=https://t.me/OrzzQueryBot>☢~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/+DDfIb-YW6LU3YzFl>☢Join Movies updateds☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/broccoli_net>☢Join Movies updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -206,7 +206,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a>href="https://t.me/moviesandwebserieshubOrzz">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/mawhOrzzBackUp2>[~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•]</a></b>""" 
+    CAPTION = """<b><a href="https://t.me/moviesandwebserieshubOrzz">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/mawhOrzzBackUp2>[~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•]</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
