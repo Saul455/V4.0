@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Dear_Batman_bot')
-API_ID = int(environ.get('API_ID', '23323912'))
-API_HASH = environ.get('API_HASH', '5b7decd292e78a57d631ea1849b7098a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7212133770:AAE-mJVuPD6Cz59wcLthQWfIDIFMmFgRZEM")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,8 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jacksparrow0982com:0fG8YhlJ1aVGANiC@cluster0.yzbfamz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "BatmanBot")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', '~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•')
 
 # Premium And Referal Settings
