@@ -68,7 +68,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Itsstoic') # owner username with
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/mawh_request_group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DDfIb-YW6LU3YzFl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+QRRM6Kff2Mk1YjJl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/mawhVerify/10')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+-PbePn-lJFxmMDU1') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -98,7 +98,7 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ae1a567b04eaf9ae0ff3
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+QRRM6Kff2Mk1YjJl')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/mawhVerify/10')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
