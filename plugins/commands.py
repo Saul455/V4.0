@@ -3,6 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 import os, string, logging, random, asyncio, time, datetime, re, sys, json, base64
+from database.verify_db import vr_db
 from Script import script
 from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
@@ -386,6 +387,7 @@ async def start(client, message):
                 protect_content=True
             )
             await verify_user(client, userid, token)
+            await vr_db.save_verification(message.from_user.id)
         else:
             return await message.reply_text(
                 text="<b>Invalid link or Expired link !</b>",
