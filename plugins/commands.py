@@ -21,6 +21,9 @@ logger = logging.getLogger(__name__)
 BATCH_FILES = {}
 join_db = JoinReqs
 
+log_channel_id = -1002086571200  # Replace with your log channel ID
+
+
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     await message.react(emoji="🔥")
@@ -388,6 +391,18 @@ async def start(client, message):
             )
             await verify_user(client, userid, token)
             await vr_db.save_verification(message.from_user.id)
+            now = datetime.now()
+            current_time = now.strftime("%H:%M:%S")
+            current_date = now.strftime("%Y-%m-%d")
+            
+            log_message = (
+                f"Name: {message.from_user.mention}\n"
+                f"Time: {current_time}\n"
+                f"Date: {current_date}\n"
+                f"#verify_completed"
+            )
+            await client.send_message(chat_id=log_channel_id, text=log_message)
+        
         else:
             return await message.reply_text(
                 text="<b>Invalid link or Expired link !</b>",
